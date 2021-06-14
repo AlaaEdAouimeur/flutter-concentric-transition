@@ -101,9 +101,9 @@ class _ConcentricPageViewState extends State<ConcentricPageView> {
                   verticalPosition: widget.verticalPosition,
                 ),
                 child: Container(
-                  color: _nextColor,
-//                  color: ColorTween(begin: _prevColor, end: _nextColor)
-//                      .transform(_progress), // Colors.blue,
+                  //   color: _nextColor,
+                  color: ColorTween(begin: _prevColor, end: _nextColor)
+                      .transform(_progress), // Colors.blue,
                 ),
               ),
             );
